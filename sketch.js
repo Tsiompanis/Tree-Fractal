@@ -6,7 +6,7 @@ var stop
 function setup() { 
   createCanvas(700, 500);
   slider = createSlider(0,PI, PI / 4, 0.01)
-  secslider = createSlider(2,15,10,1)
+  secslider = createSlider(2,200,10,1)
   secslider.position(305, height);
   slider.position(10, height);
   
